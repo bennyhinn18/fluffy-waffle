@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lethin - About Me</title>
+  <style>
+    /* Reset and Base */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff6ec4, #7873f5);
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #ff3c6f;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .container {
+      flex: 1;
+      max-width: 900px;
+      background: #fff;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      animation: fadeIn 1s ease;
+      text-align: center;
+    }
+
+    h2 {
+      color: #ff3c6f;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    ul li {
+      background: #23d5ab;
+      color: #fff;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    ul li:hover {
+      background: #fcb045;
+    }
+
+    a {
+      color: #ff3c6f;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #23d5ab;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header {
+        font-size: 2rem;
+      }
+      .container {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Hello, I'm Lethin!
+</header>
+
+<section class="container">
+  <h2>About Me</h2>
+  <p>I'm a passionate student from Stella Mary's College of Engineering, dreaming of becoming a full-stack developer. I'm also a proud <strong>Basher from Aura7F</strong>!</p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Web Development (HTML, CSS, JavaScript)</li>
+    <li>Python Programming</li>
+    <li>Arduino Projects (Bluetooth Car, Self-driving Car)</li>
+  </ul>
+
+  <h2>Hobbies</h2>
+  <p>I love coding, building smart devices, and exploring new technology trends!</p>
+
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:kjlethin24@gmail.com">kjlethin24@gmail.com</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Lethin | Proud Basher from Aura7F
+</footer>
+
+</body>
+</html>
